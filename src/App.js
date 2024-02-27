@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Keyboard from "./Components/Keyboard/Keyboard";
+import "./App.css";
+import PlayButton from "./Components/MusicBoard/PlayMusic/PlayButton";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+const App = () => {
+  const musiclist = ['C4','D4','E4','F4','G4','A4','B4','C5'];
+  return(
+      <>
+        <Keyboard musicList={musiclist}/>
+        <PlayButton />
+      </>
   );
-}
+};
 
 export default App;
