@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/the-sound-within/static/css/main.5c93616a.css",
+    "main.js": "/the-sound-within/static/js/main.a0331df8.js",
+    "static/js/453.44dd3d8c.chunk.js": "/the-sound-within/static/js/453.44dd3d8c.chunk.js",
+    "index.html": "/the-sound-within/index.html",
+    "main.5c93616a.css.map": "/the-sound-within/static/css/main.5c93616a.css.map",
+    "main.a0331df8.js.map": "/the-sound-within/static/js/main.a0331df8.js.map",
+    "453.44dd3d8c.chunk.js.map": "/the-sound-within/static/js/453.44dd3d8c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c93616a.css",
+    "static/js/main.a0331df8.js"
+  ]
+}
